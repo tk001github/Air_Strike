@@ -569,9 +569,9 @@ void Initialize() {
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     gluPerspective(60,1,0.1,150000);
-    textureGround1 = loadTex("./grass_1.png");
-    textureGround2 = loadTex("./desert2.jpg");
-    textureRoof =loadTex("./roof.png");
+    textureGround1 = loadTex("./textures/grass_1.png");
+    textureGround2 = loadTex("./textures/desert2.jpg");
+    textureRoof =loadTex("./textures/roof.png");
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
 }
